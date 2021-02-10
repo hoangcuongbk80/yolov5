@@ -8,6 +8,11 @@ $ python train.py --img 640 --batch 8 --epochs 5 --data coco128_vin.yaml --weigh
 $ python detect.py --source data/images --weights best.pt --conf 0.25
 
 ### Vin
+$ nvidia-docker run -it --ipc=host --rm -v /home/cghg/yolov5/:/usr/src/yolo5 -v /media/DiskStation/trsv/data/vin/YOLOv5/:/usr/src/vin ultralytics/yolov5
+$ cd ..
+$ cd yolo5/
+
 python train.py --img 1024 --batch 4 --epochs 50 --data xray_vin.yaml --weights yolov5x.pt
+python train.py --img 1024 --batch 4 --epochs 100 --data xray_vin.yaml --resume --weights yolov5x.pt
 python detect.py --source /usr/src/vin/images/test --img 1024 --weights best.pt --conf 0.1 --save-txt --save-conf
 

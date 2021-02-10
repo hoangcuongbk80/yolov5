@@ -1,4 +1,5 @@
 # Time CV(mAP@0.5) LB Method
 
-2020-Feb-08-22 0.35 0.174 00 yolo_img-size=1024_epochs=50
-2020-Feb-08-22 0.295 00 yolo_img-size=1024_epochs=24
+2020-Feb-08-22 0.35 0.174 yolo_img-size=1024_epochs=50_No-freeze-layers
+2020-Feb-08-22 0.29 0.000 yolo_img-size=1024_epochs=24_No-freeze-layers
+2020-Feb-08-22 0.35 0.000 yolo_img-size=1024_epochs=89_No-freeze-layers
