@@ -1,6 +1,6 @@
-Freeze backbone layers
+No Freeze, fusing boxes before training
 # TRAIN
-python train.py --img 1024 --batch 4 --epochs 82 --data xray_vin.yaml --weights yolov5x.pt
+python train.py --img 1024 --batch 4 --epochs 81 --data xray_vin.yaml --weights yolov5x.pt
 
 Namespace(adam=False, batch_size=4, bucket='', cache_images=False, cfg='', data='./data/xray_vin.yaml', device='', epochs=100, evolve=False, exist_ok=False, global_rank=-1, hyp='data/hyp.scratch.yaml', image_weights=False, img_size=[1024, 1024], local_rank=-1, log_artifacts=False, log_imgs=16, multi_scale=False, name='exp', noautoanchor=False, nosave=False, notest=False, project='runs/train', quad=False, rect=False, resume=False, save_dir='runs/train/exp2', single_cls=False, sync_bn=False, total_batch_size=4, weights='yolov5x.pt', workers=8, world_size=1)
 

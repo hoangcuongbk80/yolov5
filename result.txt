@@ -1,6 +1,8 @@
 # Time CV(mAP@0.5) LB Method
 
-2020-Feb-08-22 0.35 0.174 yolo_img-size=1024_epochs=50_No-freeze-layers
-2020-Feb-09-10 0.29 0.188 yolo_img-size=1024_epochs=24_No-freeze-layers
-2020-Feb-10-10 0.35 0.188 yolo_img-size=1024_epochs=89_No-freeze-layers
-2020-Feb-10-22 0.04 0.000 yolo_img-size=1024_epochs=89_freeze-all-layers
+2020-Feb-08-22 0.35 0.174 yolo_img-size=1024_epochs=50_5x_freeze(000)_fusing0
+2020-Feb-09-10 0.29 0.188 yolo_img-size=1024_epochs=24_5x_freeze(000)_fusing0
+2020-Feb-10-10 0.35 0.188 yolo_img-size=1024_epochs=89_5x_freeze(000)_fusing0
+2020-Feb-10-22 0.04 0.000 yolo_img-size=1024_epochs=89_5x_freeze(all)_fusing0
+2020-Feb-11-22 0.32 0.163 yolo_img-size=1024_epochs=81_5x_freeze(010)_fusing0
+2020-Feb-12-10 0.37 0.000 yolo_img-size=1024_epochs=81_5x_freeze(000)_fusing1

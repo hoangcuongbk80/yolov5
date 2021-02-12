@@ -14,5 +14,7 @@ $ cd yolo5/
 
 python train.py --img 1024 --batch 4 --epochs 50 --data xray_vin.yaml --weights yolov5x.pt
 python train.py --img 1024 --batch 4 --epochs 100 --data xray_vin.yaml --resume --weights yolov5x.pt
+python train.py --img 1024 --batch 4 --epochs 81 --data xray_vin.yaml --weights yolov5x.pt
+
 python detect.py --source /usr/src/vin/images/test --img 1024 --weights best.pt --conf 0.1 --save-txt --save-conf
 
