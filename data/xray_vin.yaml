@@ -11,13 +11,15 @@
 #val: ../vin/val.txt
 
 # nvidia server dgx
-train: ../mnt/data/vin/train.txt
-val: ../mnt/data/vin/val.txt
+train: ../mnt/data/vin/train-vin-nih.txt
+val: ../mnt/data/vin/val-vin-nih.txt
 
 
 # number of classes
-nc: 14
+nc: 2
 
 # class names
-names: [ 'Aortic enlargement', 'Atelectasis', 'Calcification', 'Cardiomegaly', 'Consolidation', 'ILD', 'Infiltration', 'Lung Opacity',
-         'Nodule/Mass', 'Other lesion', 'Pleural effusion', 'Pleural thickening', 'Pneumothorax', 'Pulmonary fibrosis']
+#names: [ 'Aortic enlargement', 'Atelectasis', 'Calcification', 'Cardiomegaly', 'Consolidation', 'ILD', 'Infiltration', 'Lung Opacity',
+#         'Nodule/Mass', 'Other lesion', 'Pleural effusion', 'Pleural thickening', 'Pneumothorax', 'Pulmonary fibrosis']
+
+names: [ 'No Finding', 'Finding']
