@@ -19,7 +19,7 @@ val: ../mnt/data/vin/val-vin.txt
 
 # number of classes
 #nc: 2
-nc: 2
+nc: 14
 
 # class names
 names: [ 'Aortic enlargement', 'Atelectasis', 'Calcification', 'Cardiomegaly', 'Consolidation', 'ILD', 'Infiltration', 'Lung Opacity',
