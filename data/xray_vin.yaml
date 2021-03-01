@@ -11,11 +11,11 @@
 #val: ../vin/val-vin.txt
 
 # nvidia server dgx
-#train: ../mnt/data/vin/train-vin-nih.txt
-#val: ../mnt/data/vin/val-vin-nih.txt
+train: ../mnt/data/vin/train-vin-nih.txt
+val: ../mnt/data/vin/val-vin-nih.txt
 
-train: ../mnt/data/vin/train-vin-dgx-jpg.txt
-val: ../mnt/data/vin/val-vin-dgx-jpg.txt
+#train: ../mnt/data/vin/train-vin-dgx-jpg.txt
+#val: ../mnt/data/vin/val-vin-dgx-jpg.txt
 
 # number of classes
 #nc: 2
