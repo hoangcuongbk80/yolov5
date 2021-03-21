@@ -14,8 +14,8 @@
 #train: ../mnt/data/vin/train-vin-nih.txt
 #val: ../mnt/data/vin/val-vin-nih.txt
 
-train: ../mnt/data/vin/train-vin-dgx-jpg-6.txt
-val: ../mnt/data/vin/val-vin-dgx-jpg-6.txt
+train: ../mnt/data/vin/train-vin-dgx-jpg-7.txt
+val: ../mnt/data/vin/val-vin-dgx-jpg-7.txt
 
 # number of classes
 #nc: 2
